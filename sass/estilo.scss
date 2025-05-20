@@ -611,8 +611,6 @@ $caja-nosotros2-img-border-radius: 10px;
 $color-fondo-como-comprar: #1a1a1a;
 $color-texto-claro: #f6f6f6;
 $color-hover-subtitulo: #57184b;
-$como-comprar-img-width: 70px;
-$como-comprar-img-margin: 26px;
 $h3-font-size: 1.5rem;
 $h3-font-weight: 600;
 $h3-margin-bottom: 16px;
@@ -624,8 +622,8 @@ $subtitulo-font-size: 1rem;
     color: $color-texto-claro;
 
     img {
-        width: $como-comprar-img-width;
-        margin: $como-comprar-img-margin;
+        width: 70px;
+        margin: 26px;
     }
 
     h3 {
@@ -661,17 +659,16 @@ $color-hover: #57184b;
 $font-size-subtitulo: 1.2rem;
 $font-weight-subtitulo: 500;
 $icon-size: 2rem;
-$margin-bottom-elementos: 40px;
 
 .subtitulo-contacto {
     font-size: $font-size-subtitulo;
     font-weight: $font-weight-subtitulo;
     text-align: center;
-    margin-bottom: $margin-bottom-elementos;
+    margin-bottom: 40px;
 }
 
 .red-social-contacto {
-    margin-bottom: $margin-bottom-elementos;
+    margin-bottom: 40px;
 
     i {
         font-size: $icon-size;
