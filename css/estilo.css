@@ -107,6 +107,7 @@ header img {
     border-radius: 0px 0px 4px 4px;
     font-weight: 400;
     text-align: left;
+    background-color: #401639;
 }
 .desplegable .desplegable-contenido a {
     display: block;

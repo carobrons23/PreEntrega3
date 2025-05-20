@@ -140,6 +140,7 @@ $width-dropdown-content: 188px;
         overflow: auto;
         border-radius: 0 0 $border-radius-dropdown $border-radius-dropdown;
         font-weight: $font-weight-normal;
+        background-color: $header-bg-color;
         text-align: left;
 
         a {
