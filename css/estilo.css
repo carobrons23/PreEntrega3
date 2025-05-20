@@ -595,37 +595,6 @@ form .btn-form:hover {
         color: #fff;
     }
 
-    /* barra de busqueda */
-    #contenedorBusqueda {
-        padding: 10px 10px 7px 10px;
-    }
-    #contenedorBusqueda input {
-        padding: 6px 9px;
-        font-size: 0.6rem;
-        border: 1px solid rgba(199, 41, 41, 0.3);
-    }
-    #contenedorBusqueda #botonBuscar {
-        padding: 0px 8px;
-        border-radius: 4px;
-        font-size: 0.5rem;
-    }
-
-    /* caja de resultados */
-    #cajaBusqueda {
-        width: 80%;
-        right: 10%;
-        top: 115px;
-        padding-top: 2px;
-        border-radius: 0px 0px 6px 6px;
-    }
-    #cajaBusqueda li a {
-        padding: 4px 10px;
-        font-size: 0.6rem;
-    }
-    #cajaBusqueda li a img {
-        width: 40px;
-    }
-
     /*página inicio y productos*/
     .img-fondo img {
         width: 100%;
@@ -678,34 +647,6 @@ form .btn-form:hover {
     .col-8 {
         margin: 0 0 0 20px;
     }
-
-    /*carrito*/
-    .cart-products {
-        width: 60vw;
-        padding: 0px 18px;
-        display: none;
-    }
-    /*carrito titulo*/
-    .cart-products h3 {
-        font-size: 20px;
-        font-weight: 700;
-    }
-    /*carrito titulo del producto*/
-    .cart-products .item .item-content h5 {
-        font-size: 14px;
-        font-weight: 800;
-    }
-    /*carrito precio*/
-    .cart-products .item .item-content h5.cart-price {
-        font-size: 18px;
-        font-weight: 600;
-    }
-    /*carrito precio total*/
-    .cart-products h2 {
-        font-size: 19px;
-        font-weight: 700;
-    }
-    
     /*cards de pages2*/
     .products {
         display: flex;
