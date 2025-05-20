@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/be621845ec.js"></script>
+    <title>ZIBÁ JOYAS - Pulseras</title>
+    <link rel="shortcut icon" href="../img/logoziba.webp">
+</head>
+
+<body>
+    <header class="sticky-top">
+        <!-- nav bar-->
+        <nav class="navbar navbar-expand-lg contenedor-nav">
+            <div class="container">
+                <!-- menu hamburguesa (responsive) -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- logo -->
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logo_cerca.jpg" alt="logo zibá">
+                </a>
+                <!-- nav -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+                        <li class="nav-item p-2">
+                            <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+                        </li>
+                        <!-- catalogo: menu desplegable (hover) -->
+                        <li id="menu-desplegable-hover" class="nav-item p-2">
+                            <div class="desplegable">
+                                <a class="nav-link dropdown-toggle" href="../pages/productos.html">
+                                    PRODUCTOS
+                                </a>
+                                <div class="desplegable-contenido">
+                                    <ul class="filtrarCatalogo">
+                                        <li><a data-value="anillos" href="./anillos.html">ANILLOS</a></li>
+                                        <li><a data-value="Pulsera" href="./pulseras.html">PULSERAS</a></li>
+                                        <li><a data-value="collares" href="./collares.html">COLLARES</a></li>
+                                        <li><a data-value="aros" href="./aritos.html">AROS</a></li>
+                                        <li><a data-value="dijes" href="./dijes.html">DIJES</a></li>
+                                        <li><a data-value="abridores" href="./abridor.html">ABRIDORES</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- catalogo: menu desplegable (dropdown) -->
+                        <li id="menu-desplegable-hamburguesa" class="nav-item p-1 dropdown">
+                            <a class="nav-link dropdown-toggle nav-link-dropdown" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" href="../pages/productos.html">
+                                PRODUCTOS
+                            </a>
+                            <ul class="dropdown-menu filtrarCatalogo">
+                                <hr class="dropdown-divider">
+                                <li><a data-value="buzos" class="dropdown-item" href="./anillos.html">ANILLOS</a></li>
+                                <li><a data-value="calzados" class="dropdown-item" href="./pulseras.html">PULSERAS</a>
+                                </li>
+                                <li><a data-value="camisas" class="dropdown-item" href="./collares.html">COLLARES</a>
+                                </li>
+                                <li><a data-value="aros" class="dropdown-item" href="./aritos.html">AROS</a></li>
+                                <li><a data-value="dijes" class="dropdown-item" href="./dijes.html">DIJES</a></li>
+                                <li><a data-value="abridores" class="dropdown-item" href="./abridor.html">ABRIDORES</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- otros items del nav -->
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="../pages/metodos.html">CÓMO COMPRAR</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container">
+        <!-- titulo -->
+        <div class="subtitulo">
+            <h2 class="section-titulo">PULSERAS</h2>
+        </div>
+        <div class="products">
+            <div class="carts">
+                <div>
+                    <img src="../img/pulsera1.jpg" alt="img pulseras 1">
+                    <p>$<span>50</span></p>
+                </div>
+                <p class="title">PULSERA INFINITY LOVE</p>
+                <a href="" data-id="1" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="../img/pulsera2.jpg" alt="img pulseras 2">
+                    <p>$<span>100</span></p>
+                </div>
+                <p class="title">PULSERA GREEN MOON</p>
+                <a href="" class="btn-add-cart" data-id="2">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="../img/pulsera3.jpg" alt="img pulseras 3">
+                    <p>$<span>200</span></p>
+                </div>
+                <p class="title">PULSERA INFINITY</p>
+                <a href="" data-id="3" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="../img/pulsera4.jpg" alt="img pulseras 4">
+                    <p>$<span>300</span></p>
+                </div>
+                <p class="title">PULSERA CUARZO</p>
+                <a href="" data-id="4" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="../img/pulsera5.jpg" alt="img pulseras 5">
+                    <p>$<span>400</span></p>
+                </div>
+                <p class="title">PULSERA AURORA</p>
+                <a href="" data-id="5" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="../img/pulsera6.jpg" alt="img pulseras 6">
+                    <p>$<span>500</span></p>
+                </div>
+                <p class="title">PULSERA AFRODITA</p>
+                <a href="" data-id="6" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="../img/pulsera7.jpg" alt="img pulseras 7">
+                    <p>$<span>600</span></p>
+                </div>
+                <p class="title">PULSERA SKY BLUE</p>
+                <a href="" data-id="7" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="../img/pulsera8.jpg" alt="img pulseras 8">
+                    <p>$<span>700</span></p>
+                </div>
+                <p class="title">PULSERA GOLDEN PEARL</p>
+                <a href="" data-id="8" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="caja-box">
+                <div class="box1">
+                    <h2>AYUDA</h2>
+                    <ul class="lista-ayuda">
+                        <li><a href="../pages/metodos.html">Envios</a></li>
+                        <li><a href="../pages/metodos.html">Métodos de pago</a></li>
+                        <li><a href="../pages/metodos.html">Cambios</a></li>
+                        <li><a href="../pages/metodos.html">Devoluciones</a></li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <h2>PRODUCTOS</h2>
+                    <ul class="lista-ayuda">
+                        <li><a href="./anillos.html">Anillos</a></li>
+                        <li><a href="./pulseras.html">Pulseras</a></li>
+                        <li><a href="./collares.html">Collares</a></li>
+                        <li><a href="./aritos.html">Aritos</a></li>
+                        <li><a href="./dijes.html">Dijes</a></li>
+                        <li><a href="./abridor.html">Abridores</a></li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <h2>TRABAJAMOS CON:</h2>
+                    <ul class="lista-ayuda">
+                        <li><a href="#">Plata 925</a></li>
+                        <li><a href="#">Enchapado en Oro</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <div class="red-social">
+                <a href="https://www.instagram.com/zibaajoyas/?next=%2F" target="_blank" class="fa fa-instagram"></a>
+                <a href="https://www.facebook.com/" target="_blank" class="fa-regular fa-envelope"></a>
+                <a href="https://web.whatsapp.com/" target="_blank" class="fa fa-whatsapp"></a>
+            </div>
+            <p>&copy; 2025 <b>ZIBÁ JOYAS</b> Todos los Derechos Reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
