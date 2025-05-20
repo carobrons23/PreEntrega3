@@ -503,9 +503,6 @@ form .btn-form:hover {
     header.sticky-top {
         height: 100%;
     }
-    .container {
-        background-color: #401639;
-    }
     button.navbar-toggler {
         background-color: #57184b;
         border-radius: 2px;
@@ -571,9 +568,6 @@ form .btn-form:hover {
     }
     header.sticky-top {
         height: 100%;
-    }
-    .container {
-        background-color: #401639;
     }
     button.navbar-toggler {
         background-color: #57184b;
